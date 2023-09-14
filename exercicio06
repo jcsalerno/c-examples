@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    
+    float n1, n2, resultado;
+
+    n1 = 17.0;
+    n2 = 45.4;
+    resultado = n1 + n2; 
+
+    printf("O resultado é: %f", resultado);
+    return 0;
+}

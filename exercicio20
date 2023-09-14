@@ -1,0 +1,24 @@
+//Um empresário quer dar um aumento de 20% para um dos seu funcionários. Faça um programa que leia o salário de um empregado, calcule o novo salário e apresente as seguintes informações: 
+a) Salário antigo; 
+b) Novo salário.//
+
+#include <stdio.h> 
+
+int main(){
+    float salario, salarioNovo;
+
+    printf("Digite seu salario:");
+    scanf("%f", &salario);
+
+    salarioNovo = (salario * 120) / 100; 
+
+    printf("Seu salario é de: %f \n", salario);
+    printf("Seu aumento foi para: %f", salarioNovo);
+
+    return 0;
+}
+
+
+100 + o valor da porcentagem / 100
+
+então acima eu peguei o 100 somei + 20, dps dividi por 100

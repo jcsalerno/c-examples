@@ -1,0 +1,27 @@
+////Faça um algoritmo para calcular a média final das notas de um aluno. A nota é composta pela nota de 3 provas e 1 trabalho. As provas têm peso 8,0 na média final e o trabalho tem peso 2,0. Ao final apresente a média final utilizando a função printf().//
+#include <stdio.h>
+
+int main(){
+    float nota1, nota2, nota3, trabalho, mediaProva, mediaTrabalho, mediaFinal;
+
+    printf("Digite a nota da primeira prova:");
+    scanf ("%f", &nota1);
+
+    printf ("Digite a nota da segunda prova:");
+    scanf ("%f", &nota2);
+
+    printf("Digite a nota da terceira prova:");
+    scanf ("%f", &nota3);
+
+    printf ("Digite a nota do trabalho:");
+    scanf ("%f", &trabalho); 
+
+    mediaProva = ((nota1 + nota2 + nota3) / 3) * 0.8 ;
+    mediaTrabalho = (trabalho * 0.2);
+    mediaFinal = mediaProva + mediaTrabalho;
+
+    printf("A nota final do aluno foi: %f", mediaFinal);
+
+
+    return 0;
+}

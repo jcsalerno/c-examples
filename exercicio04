@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main (){
+
+ int resultado;
+
+ resultado = 40 + 35;
+
+ printf("O resultado da operacao e: %d", resultado);
+ 
+ return 0;
+}
+

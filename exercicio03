@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main (){
+    //DECLARAÇÕES DE VARIÁVEIS
+    int idade;
+    float peso;
+
+    //DFINIÇÃO DE VALORES 
+    idade = 30;
+    peso = 90.5;
+
+    //MOSTRAR VALORES
+    printf("Idade: %i . Peso: %f", idade, peso);
+return 0;
+}

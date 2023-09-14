@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+
+    int anoDeNascimento, idade, diasVivido;
+
+    anoDeNascimento = 1993;
+    idade = 2022 - anoDeNascimento;
+    diasVivido = idade * 365; 
+
+    printf("A pessoa viveu: %d", diasVivido);
+    return 0;
+}

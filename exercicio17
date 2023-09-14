@@ -1,0 +1,26 @@
+///Faça um algoritmo que leia dois valores, a seguir apresente: 
+a) A soma dos dois números. 
+b) A diferença dos dois números.///
+
+#include <stdio.h>
+
+int main(){
+
+    int numero1, numero2;
+    int soma, diferenca;
+
+    printf("Digite um numero:");
+    scanf ("%d", &numero1);
+
+    printf ("Digite um numero");
+    scanf ("%d", &numero2);
+
+    soma = numero1 + numero2;
+    diferenca = numero1 - numero2;
+
+    printf ("O valor da soma de dois números digitados é: %d e a diferença é %d", soma, diferenca);
+    
+
+    return 0;
+}
+

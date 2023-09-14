@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+
+    float adicao, subtracao, multiplicacao, divisao;
+
+    adicao = 36 + 41;
+    subtracao = 36 - 41;
+    multiplicacao = 36 * 41;
+    divisao = 36.0 / 41.0;
+
+    printf("O valor da adição é: %f \n", adicao);
+    printf("O valor da subtração é: %f \n", subtracao);
+    printf("O valor da Multiplicação é: %f \n", multiplicacao);
+    printf("O valor da divisão é: %f ", divisao);
+
+
+    return 0;
+}

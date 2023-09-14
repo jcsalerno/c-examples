@@ -1,0 +1,20 @@
+///Faça um algoritmo que leia o valor de um dos lados de um quadrado, após isso calcule a sua área e perímetro.
+
+#include <stdio.h>
+
+int main(){
+    float quadrado, valor1, perimetro;
+
+    printf("Digite um lado do quadrado");
+    scanf ("%f", &valor1); 
+
+    quadrado = valor1 * valor1; 
+
+    perimetro = valor1 * 4; 
+
+    printf("O valor de um lado do quadrado é: %f e o seu perímetro é %f", quadrado, perimetro);
+
+
+
+    return 0;
+}

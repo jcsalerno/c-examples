@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+     
+     float temperatura;
+
+     printf("Digite a temperatura:");
+     scanf("%f", &temperatura);
+
+     temperatura = ((temperatura-32) * 5) / 9;
+
+     printf("O resultado da temperatura é: %f", temperatura);
+
+
+
+
+    return 0;
+}

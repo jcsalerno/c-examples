@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+    int numero1, numero2;
+    int soma;
+    
+    numero1 = 74;
+    numero2 = 24; 
+
+    soma = numero2 + numero2;
+
+    printf("Soma: %d \n", soma);
+
+    return 0;
+}

@@ -1,0 +1,19 @@
+//Um hospital só permite que um paciente leve um acompanhante para realização de exames se o paciente tiver mais de 65 anos OU menos que 18 anos. Faça um algoritmo que receba a idade do paciente e informe se o paciente tem ou não direito a um acompanhante na realização do exame./
+
+#include <stdio.> 
+
+int main(){
+    int idade;
+
+    printf("Digite sua idade");
+    scanf ("%d", &idade);
+
+    if(idade > 65 || idade < 18){
+        printf("Você tem direito a um acompanhante na realização do exame");
+        }else{
+            printf("Você não tem direito a um acompanhante na realização do exame");
+        }
+    
+ return   0;
+ 
+}

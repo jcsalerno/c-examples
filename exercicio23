@@ -1,0 +1,28 @@
+///Faça um algoritmo que para calcular um aumento de salário para um determinado funcionário.
+- Se o salário for menor ou igual a R$2000,00 o funcionário receberá um aumento de R$400,00.
+- Se o salário for maior que R$2000,00 o funcionário receberá um aumento de R$200,00.
+Ao final apresente o salário antigo e o novo salário.///
+
+
+#include <stdio.h>
+
+int main(){
+    
+    float salarioAtual, salarioNovo;
+
+    printf("Digite seu salario atual");
+    scanf ("%f", &salarioAtual);
+
+    if(salarioAtual <= 2000){
+        salarioNovo = salarioAtual + 400;
+        printf("Você receberá um aumento de R$400");
+    }
+    else{
+        salarioAtual = salarioNovo +200;
+        printf("Você receberá um aumento de R$200");
+    }
+
+    printf("Seu salário antigo era de: %f e aumento de: %f", salarioAtual, salarioNovo);
+
+    return 0;
+}

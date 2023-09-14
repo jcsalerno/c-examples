@@ -1,0 +1,21 @@
+///Desenvolva um programa em C que leia a velocidade atual de veículo e verifique:
+- Se a velocidade for maior que 80, mostre a seguinte mensagem: “VEÍCULO MULTADO”.
+- Senão o carro está em uma velocidade segura. //
+
+
+#include <stadio.h>
+
+int main(){
+    int velocidade;
+
+    printf("Digite sua velocidade");
+    scanf("%d", &velocidade);
+
+    if(velocidade <= 80){
+        printf("Você não foi multado");
+    }else
+        {
+        printf("Você foi multado");
+    }
+    return 0;
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+    float prova1, prova2, trabalho, mediaFinal, mediaProvas, mediaTrabalho;
+
+    printf ("Digite a nota da primeira prova:");
+    scanf ("%f", &prova1);
+
+    printf ("Digite a nota da segunda prova:");
+    scanf ("%f", &prova2);
+
+    printf ("Digite a nota do trabalho:");
+    scanf ("%f", &trabalho);
+
+    mediaProvas = ((prova1 + prova2) / 2) * 0.7;
+    mediaTrabalho = (trabalho * 0.3);
+    mediaFinal = mediaProvas + mediaTrabalho;
+
+    printf ("O a média final: %f", mediaFinal);
+
+
+
+    return 0;
+}

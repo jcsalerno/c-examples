@@ -1,0 +1,14 @@
+
+
+#include <stdio.h>
+
+int main(){
+    int idade = 19;
+
+    if(idade >=18){
+        printf("Pode tirar a cateira de motorias");
+    }else{
+        printf("Não pode tirar a carteira");
+    }
+    return 0;
+}

@@ -1,0 +1,18 @@
+///Votar é obrigatório ou não idade///
+
+#include <stadio.h>
+
+int main(){
+    int idade;
+
+    printf("Digite sua idade");
+    scanf ("%d", &idade);
+
+    if(idade >= 18 && idade < 70){
+        printf("Você é obrigado a votar");
+    }
+    else{
+        printf("Você não é obrigado a votar!");
+    }
+    return 0;
+}

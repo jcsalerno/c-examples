@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+
+    float kg, g;
+
+    kg = 14;
+    
+    g = kg * 1000;
+
+    printf("Kg: %f eh igual a: %f g\n", kg, g);
+
+    g = 35000;
+
+    kg = g / 1000; 
+
+    printf("g:%f eh igual a: %f Kg\n", g, kg);
+
+
+
+    return 0;
+}
