@@ -1,4 +1,4 @@
-/*Claro! Aqui está um exemplo de código em C fora da função main que implementa uma lista encadeada simples, com funções para inserir, remover e buscar elementos:*/
+/*Aqui está um exemplo de código em C fora da função main que implementa uma lista encadeada simples, com funções para inserir, remover e buscar elementos:*/
 
 #include <stdio.h>
 #include <stdlib.h>

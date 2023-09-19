@@ -1,9 +1,6 @@
 /*
-            Código escrito por Wagner Gaspar
-            Agosto de 2021
-
-            Aula 250: Lista Simplesmente Encadeada
-            Como remover SEM a estrutura lista?
+    Aula 250: Lista Simplesmente Encadeada
+    Como remover SEM a estrutura lista?
 */
 #include <stdio.h>
 #include <stdlib.h>

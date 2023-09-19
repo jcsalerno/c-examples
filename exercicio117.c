@@ -1,9 +1,6 @@
 /*
-            Código escrito por Wagner Gaspar
-            Agosto de 2021
-
-            Aula 252: Lista Simplesmente Encadeada
-            Busca SEM a estrutura lista
+    Lista Simplesmente Encadeada
+    Busca SEM a estrutura lista
 */
 
 #include <stdio.h>

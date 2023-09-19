@@ -1,9 +1,6 @@
 /*
-            Código escrito por Wagner Gaspar
-            Agosto de 2021
-
-            Aula 251: Lista Simplesmente Encadeada
-            Como remover COM a estrutura lista?
+    Aula 251: Lista Simplesmente Encadeada
+    Como remover COM a estrutura lista?
 */
 #include <stdio.h>
 #include <stdlib.h>
